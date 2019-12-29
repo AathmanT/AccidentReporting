@@ -48,19 +48,19 @@
 </head>
 <body>
 <div class="container-fluid">
-    <div style="text-align: center;"><h1>Pending Reports</h1></div>
+    <div style="text-align: center;"><h1>Public view</h1></div>
     <?php
     require 'education.php';
     $edu = new education;
 
-    $allData = $edu->getAllColleges();
+    $allData = $edu->getAllPublicView();
     if(count($allData)){
         $allData = json_encode($allData, true);
         echo '<div id="allData">' . $allData . '</div>
         <div class="row">
         <ul class="list-group col-4">'.
 
-           $edu->display()
+           $edu->publicDisplay()
 
         .'</ul>
         <div class="col-8">
