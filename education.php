@@ -94,6 +94,14 @@ class education
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    public function getMyReports($licenseno)
+    {
+        $sql = "SELECT * FROM reports where licenseno='$licenseno'";
+        $stmt = $this->conn->prepare($sql);
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
     public function getAllPublicView()
     {
         $sql = "SELECT * FROM reports where acceptreject=1";
@@ -198,6 +206,56 @@ class education
         $mysqli->close();
         return $output;
     }
+
+    public function displayMyReports($licenseno)
+    {
+        $mysqli = new mysqli('localhost', 'root', '', 'accidentreporter');
+        if ($mysqli->connect_errno) {
+            echo "Failed to connect to MySQL: " . $mysqli->connect_error;
+            exit();
+        }
+        $output = "";
+        if ($results = $mysqli->query("select * from reports where licenseno='$licenseno'")) {
+
+            if ($results->num_rows) {
+
+                while ($row = $results->fetch_object()) {
+                    $output .= '<li class="list-group-item nopadding">
+                <div class="card w-100 ">
+                <div class="card-header bg-success text-dark"><h1>' . $row->nameOfPlace . '</h1></div>
+                    <div class="row no-gutters">
+                        <div class="col-8">
+                            
+                            <div class="card-body">
+                                
+                                <p class="card-text">' . $row->Description . '</p>
+                                <p class="card-text">
+                                    <small class="text-muted">'. $row->time . '</small>
+                                </p>
+                                <a href="accept.php?id=' . $row->ID . '" class="btn btn-success">Update</a>
+                                <a href="reject.php?id=' . $row->ID . '" class="btn btn-danger">Delete</a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="image-custom ">
+                            <img src="data:image;base64,' . $row->image . '" class="card-img " alt="' . $row->imagename . '">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>';
+                }
+                $results->free();
+
+            }
+
+        } else {
+            echo("Error description: " . $mysqli->error);
+        }
+        $mysqli->close();
+        return $output;
+    }
+
     public function updateCollegesWithLatLng()
     {
         $sql = "UPDATE $this->tableName SET lat = :lat, lng = :lng WHERE id = :id";
