@@ -57,11 +57,13 @@
 
                     while ($row = $results->fetch_object()) {
                         $output .= '<li class="list-group-item nopadding">
-                <div class="card w-100">
+                <div class="card w-100 ">
+                <div class="card-header bg-success text-dark"><h1>'.$row->nameOfPlace.'</h1></div>
                     <div class="row no-gutters">
                         <div class="col-8">
+                            
                             <div class="card-body">
-                                <h5 class="card-title">'.$row->nameOfPlace.'</h5>
+                                
                                 <p class="card-text">'.$row->Description.'</p>
                                 <p class="card-text">
                                     <small class="text-muted">'.$row->LicenseNo.' - '.$row->time.'</small>

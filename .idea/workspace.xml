@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7e62346-defb-459e-b941-7488292b671d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accept.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-upload-img.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-upload1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/DbConnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/db/DbConnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/education.php" beforeDir="false" afterPath="$PROJECT_DIR$/education.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/googlemap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/googlemap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-upload-img.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/user-upload-img.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/user-upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-upload1.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +21,8 @@
       <file leaf-file-name="education.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/education.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+            <state relative-caret-position="273">
+              <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
               <folding>
                 <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
               </folding>
@@ -43,23 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" selection-end-line="27" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding>
-                <element signature="e#880#907#0#HTML" expanded="true" />
-              </folding>
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-upload.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/user-upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="22" selection-end-line="27" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -77,16 +70,7 @@
         <entry file="file://$PROJECT_DIR$/reject.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-upload1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-upload1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="136" column="23" lean-forward="true" selection-start-line="128" selection-start-column="4" selection-end-line="136" selection-end-column="23" />
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -177,6 +161,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Accident Reporter\google-map-php-mysql\test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\Accident Reporter\google-map-php-mysql" />
     </key>
@@ -210,12 +197,12 @@
       <workItem from="1577534267677" duration="3391000" />
       <workItem from="1577546304106" duration="7216000" />
       <workItem from="1577592364826" duration="4239000" />
-      <workItem from="1577597669409" duration="5168000" />
+      <workItem from="1577597669409" duration="7404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36311000" />
+    <option name="totallyTimeSpent" value="38547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -287,7 +274,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload.php">
+    <entry file="file://$PROJECT_DIR$/test/user-upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" selection-end-line="27" selection-end-column="7" />
@@ -298,9 +285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2244">
           <caret line="102" column="22" lean-forward="true" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-          <folding>
-            <element signature="e#880#907#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -311,7 +295,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload-img.php">
+    <entry file="file://$PROJECT_DIR$/test/user-upload-img.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
           <caret line="64" column="1" selection-start-line="40" selection-end-line="64" selection-end-column="1" />
@@ -339,7 +323,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload.php">
+    <entry file="file://$PROJECT_DIR$/test/user-upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" selection-end-line="27" selection-end-column="7" />
@@ -350,9 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding>
-            <element signature="e#880#907#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -363,7 +344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload-img.php">
+    <entry file="file://$PROJECT_DIR$/test/user-upload-img.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
           <caret line="64" column="1" lean-forward="true" selection-start-line="40" selection-end-line="64" selection-end-column="1" />
@@ -384,7 +365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload.php">
+    <entry file="file://$PROJECT_DIR$/test/user-upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" lean-forward="true" selection-end-line="27" selection-end-column="7" />
@@ -395,9 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2860">
           <caret line="130" column="17" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
-          <folding>
-            <element signature="e#880#907#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -415,7 +393,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload-img.php">
+    <entry file="file://$PROJECT_DIR$/test/user-upload-img.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
@@ -429,7 +407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload.php">
+    <entry file="file://$PROJECT_DIR$/test/user-upload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="25" column="122" selection-start-line="7" selection-end-line="25" selection-end-column="122" />
@@ -507,21 +485,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload-img.php">
+    <entry file="file://$PROJECT_DIR$/test/user-upload-img.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="64" column="1" selection-start-line="40" selection-end-line="64" selection-end-column="1" />
@@ -535,17 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-upload1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
-          <caret line="136" column="23" lean-forward="true" selection-start-line="128" selection-start-column="4" selection-end-line="136" selection-end-column="23" />
+          <caret line="136" column="23" selection-start-line="128" selection-start-column="4" selection-end-line="136" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -558,21 +522,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/education.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="66" column="84" selection-start-line="66" selection-start-column="84" selection-end-line="66" selection-end-column="84" />
+        <state relative-caret-position="273">
+          <caret line="60" column="51" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
           <folding>
             <element signature="n#src#0;n#img#0;n#div#1;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/user-upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <element signature="e#880#907#0#HTML" expanded="true" />
-          </folding>
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>

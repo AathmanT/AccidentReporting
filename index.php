@@ -16,6 +16,16 @@
 
         .card {
             width: 100%;
+            border-width: thin;
+            border-color: #1b1e21;
+        }
+        .row{
+            padding: 15px;
+            padding-bottom: 10px;
+        }
+
+        .col-4{
+            text-align: center;
         }
 
         .nopadding {
